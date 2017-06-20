@@ -8,7 +8,7 @@
 
 /*
 1. What is the maximum number of page table entries?
-2 bytes(16 bits)이다. 16-bit computer이기 때문이다.
+2^6 = 64개 이다.
 
 2. What is size of a page(in bytes)?
 2^10 bytes이다. page offset이 10 bits 이기 때문에 0000000000 부터 1111111111를 구분하기 위해서는 2^10 bytes가 필요하다.
